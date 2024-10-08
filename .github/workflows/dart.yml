@@ -30,7 +30,8 @@ jobs:
         continue-on-error: true
 
       # Build APK for Android
-      - run: flutter build apk --release --split-per-abi
+      # - run: flutter build apk --release --split-per-abi
+      - run: flutter build apk --release --verbose
 
       # Build iOS
      
